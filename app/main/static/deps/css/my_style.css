@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #996633;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #CC6600;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    height: 100px;
+}
+
+.header__logo {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.header__nav {}
+
+.header__list {
+    display: flex;
+    gap: 55px;
+}
+
+.header__item {
+    list-style-type: none;
+}
+
+.header__link {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}

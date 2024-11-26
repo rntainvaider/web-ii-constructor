@@ -1,0 +1,41 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static "deps/css/my_style.css" %}">
+    <title>{{ title }}</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <a href="{% url "index" %}" class="header__logo">
+                    II-Constructor
+                </a>
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a href="{% url "documentation" %}" class="header__link">
+                                Документация
+                            </a>
+                        </li>
+                        <li class="header__item">
+                            <a href="https://github.com/mikolainer/ii-constructor" class="header__link">
+                                Код
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <p>НАЧАЛО РАБОТЫ С КОНСТРУКТОРОМ</p>
+        </div>
+    </main>
+</body>
+</html>
